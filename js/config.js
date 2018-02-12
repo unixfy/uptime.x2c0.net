@@ -1,18 +1,12 @@
 // array of Monitor-specific API keys or Main API key to list all monitors
 var __apiKeys = [
-	'm776858319-7c829d2c3e250f85776f588e', //Community
-	'm776858325-1ddf7c7e98ce56609325db3b', //Document
-	'm776858327-19b31e671f6b217b8ded96c6', //Me
-	'm776858407-a704cd548fb5c15db5b625f9', //Update A
-	'm778126978-24e6f1ce275c2518bad1e925', //Update B
-	'm777157148-a67f71b8a807c54b8ce92c9d', //Update deliver A
-	'm777157137-ce781489d1af15253ca3f0c1', //Update deliver B
-	'm776858320-7b44f9ac136f69ac3e356e8e', //Auth A
-	'm776858321-486827042ed7a7f7b8952a05', //Auth B
-	'm778734196-a51947f061c5db10cee048f7', //Auth C
-	'm776858323-0bdafb9e9a71e3305c27c1af', //Auth D
-	'm777190463-ac0ab733e1b29c92b7de0354', //Auth E
+	'm779993720-6031ea8d35e8c1c059d64fdc', // Iolite-LAX
+	'm779993722-a1297fe65e009678a6cba556', // Citrine-BHS
+	'm779993726-bf8f9d3b0056f04dfb5398ca', // Charoite-ORD
+	'm779993724-cb2cd426d7eef44329788a39', // Diopside-DFW
+	'm779993734-f652316f484c4f0bd94ff994', // C9IDE
+	'm779993732-167adb42423b9c5c53e8f916', // Remote Desk
 ];
 
 // refresh interval (in seconds)
-var __refresh = 180;
+var __refresh = 30;
