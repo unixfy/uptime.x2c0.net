@@ -9,4 +9,4 @@ var __apiKeys = [
 ];
 
 // refresh interval (in seconds)
-var __refresh = 30;
+var __refresh = 180;
