@@ -46,30 +46,30 @@ myApp.dashboard = (function($) {
         case 0:
             data.statustxt = "未知";
             data.statusicon = "question-sign";
-            data.label = "default";
+            data.label = "blue";
             break;
         case 1:
             data.statustxt = "未知";
             data.statusicon = "question-sign";
-            data.label = "default";
+            data.label = "blue";
             break;
         case 2:
-            data.statustxt = "正常";
-            data.statusicon = "ok";
-            data.label = "success";
+            data.statustxt = "OK";
+            data.statusicon = "check_circle";
+            data.label = "light-green";
             data.alert = "";
             break;
         case 8:
             data.statustxt = "异常";
             data.statusicon = "exclamation-sign";
-            data.label = "warning";
+            data.label = "orange";
             data.alert = "warning";
             error = true;
             break;
         case 9:
             data.statustxt = "故障";
             data.statusicon = "remove";
-            data.label = "danger";
+            data.label = "red";
             data.alert = "danger";
             error = true;
             break;
