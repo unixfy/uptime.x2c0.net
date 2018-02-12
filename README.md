@@ -1,21 +1,8 @@
-Status
-======
+X2C0 Uptime
+---
 
-基于 [Upscuits](https://github.com/digibart/upscuits)，以 [UptimeRobot](https://uptimerobot.com/) 为数据源的在线状态统计页面。
+[![CircleCI](https://circleci.com/gh/unixfy/uptime.x2c0.net.svg?style=svg)](https://circleci.com/gh/unixfy/uptime.x2c0.net)
 
-**2016-10-6** Uptime Robot 已经新增 Public Status Pages 功能，详见 [官网](http://blog.uptimerobot.com/introducing-public-status-pages-yay/)。
+This is built specifically as a status page for X2C0.NET services, with UptimeRobot as a backend.
 
-## 使用方法
-
-1. 注册 [UptimeRobot](https://uptimerobot.com/)，获取 [Monitor-Specific API Keys](https://uptimerobot.com/dashboard.php#mySettings)
-2. 将 `API Keys` 填入 `js/config.js`
-3. 修改 `index.html` 内的页面标题等信息
-4. 完成！
-
-## 演示
-
-[酷Q状态](http://status.cqp.cc)
-
-## License
-
-This work is licensed under [GPLv3](https://github.com/Coxxs/status/blob/master/LICENSE).
+I used portions of code from [CoolQ](https://github.com/CoolQ/status) to build this project.
